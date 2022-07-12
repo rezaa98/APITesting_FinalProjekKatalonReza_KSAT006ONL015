@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>for get Token</description>
-   <name>Auth</name>
+   <description></description>
+   <name>POST - Login successful</name>
    <tag></tag>
-   <elementGuidId>039bdd81-d68c-472e-aacc-adeea2ce7819</elementGuidId>
+   <elementGuidId>55d916a6-8258-4e14-b331-a9b5df5c36ff</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: [
-    {
-      &quot;name&quot;: &quot;username&quot;,
-      &quot;value&quot;: &quot;admin&quot;
-    },
-    {
-      &quot;name&quot;: &quot;password&quot;,
-      &quot;value&quot;: &quot;password123&quot;
-    }
-  ]
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;,\n    \&quot;password\&quot;: \&quot;cityslicka\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
-   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
-      <webElementGuid>e2103b42-a800-45d9-9ce6-07e6592d3687</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>ca88a336-ffe6-42a9-b4ed-881526afa35e</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://restful-booker.herokuapp.com/auth/</restUrl>
+   <restUrl>https://reqres.in/api/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -57,6 +48,14 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

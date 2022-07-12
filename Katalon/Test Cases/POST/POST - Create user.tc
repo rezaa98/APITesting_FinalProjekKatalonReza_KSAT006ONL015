@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST - Create user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d14444ae-4d8a-4d32-872d-ca057f6c380a</testCaseGuid>
+</TestCaseEntity>

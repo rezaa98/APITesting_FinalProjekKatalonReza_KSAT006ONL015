@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description>method get pada Booking ID</description>
-   <name>getAllBooking</name>
+   <description></description>
+   <name>PUT - Update user</name>
    <tag></tag>
-   <elementGuidId>0e0fb89d-ee86-4465-b8c5-5c9d7a3e1c67</elementGuidId>
+   <elementGuidId>9a25c4b0-8010-44e6-8dbc-3f3a1c709c1b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;name\&quot; : \&quot;Jackob\&quot;,\n    \&quot;job\&quot; : \&quot;Gardener\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>8e8b5cdef5b51a6</value>
-      <webElementGuid>8430751d-5ea0-4b5b-a940-2731925e5487</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>797acb48-bc09-4348-97fe-9ec282a2a5af</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://restful-booker.herokuapp.com/booking/47</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://reqres.in/api/users/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -42,8 +46,18 @@ import com.kms.katalon.core.webservice.verification.WSResponseManager
 import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 
+
+
+
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
