@@ -11,10 +11,10 @@
 
 ## Total Test Case & Test Suite
 
-- Test Case = 6 Test Case Folder with 4 Method : `GetID`, `GetAll`, `Post`, `Delete` in every Folder
-- Test Suite = 6 Test Suite `Albums` `Comments` `Posts` `Todos` `Users` `Photos`
+- Test Case = 11 Test Case with 5 Method : `PUT`, `POST`, `PATCH`, `GET`, `DELETE` in every Folder
+- Test Suite = 5 Test Suite `PUT`, `POST`, `PATCH`, `GET`, `DELETE`
 
-- Test Suite Collection = 1
+- Test Suite Collection = 1, `REGRESION TEST SUITE`
 
 ## Results
 
