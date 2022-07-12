@@ -19,11 +19,17 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 import java.net.URL as URL
 
+WebUI.comment('Start Get List User')
+
 response1 = WS.sendRequest(findTestObject('Reqres/GET/GET - List of users - PAGE 2'))
+
+WebUI.comment('Inisiate Slurper')
 
 def slurper = new JsonSlurper()
 
 Map result = slurper.parseText(response1.getResponseBodyContent())
+
+WebUI.comment('Do Looping')
 
 for (int i = 0; i < result.size(); i++) {
     WS.verifyElementPropertyValue(response1, ('data[' + i) + '].id', result.data[i].id)
