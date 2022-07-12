@@ -17,8 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('POST/POST - Register successful'))
-
+response = WS.sendRequest(findTestObject('Reqres/POST/POST - Register successful'))
 
 WS.verifyElementPropertyValue(response, 'id', 4)
-WS.verifyElementPropertyValue(response, 'token', "QpwL5tke4Pnpja7X4")
+
+WS.verifyElementPropertyValue(response, 'token', 'QpwL5tke4Pnpja7X4')
+

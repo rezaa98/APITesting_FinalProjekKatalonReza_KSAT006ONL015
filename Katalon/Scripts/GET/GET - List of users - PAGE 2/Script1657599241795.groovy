@@ -19,19 +19,23 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 import java.net.URL as URL
 
-response1 = WS.sendRequest(findTestObject('GET/GET - List of users - PAGE 2'))
+response1 = WS.sendRequest(findTestObject('Reqres/GET/GET - List of users - PAGE 2'))
 
 def slurper = new JsonSlurper()
 
 Map result = slurper.parseText(response1.getResponseBodyContent())
 
-for(int i=0; i < result.size(); i++) {
-	
-	WS.verifyElementPropertyValue(response1, 'data[' + i + '].id', result.data[i].id)
-	WS.verifyElementPropertyValue(response1, 'data[' + i + '].email', result.data[i].email)
-	WS.verifyElementPropertyValue(response1, 'data[' + i + '].first_name', result.data[i].first_name)
-	WS.verifyElementPropertyValue(response1, 'data[' + i + '].last_name', result.data[i].last_name)
-	WS.verifyElementPropertyValue(response1, 'data[' + i + '].avatar', result.data[i].avatar)
-	
-	println('data[' + i + '].id')
+for (int i = 0; i < result.size(); i++) {
+    WS.verifyElementPropertyValue(response1, ('data[' + i) + '].id', result.data[i].id)
+
+    WS.verifyElementPropertyValue(response1, ('data[' + i) + '].email', result.data[i].email)
+
+    WS.verifyElementPropertyValue(response1, ('data[' + i) + '].first_name', result.data[i].first_name)
+
+    WS.verifyElementPropertyValue(response1, ('data[' + i) + '].last_name', result.data[i].last_name)
+
+    WS.verifyElementPropertyValue(response1, ('data[' + i) + '].avatar', result.data[i].avatar)
+
+    println(('data[' + i) + '].id')
 }
+

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 import java.net.URL as URL
 
-response = WS.sendRequest(findTestObject('GET/GET - User'))
+response = WS.sendRequest(findTestObject('Reqres/GET/GET - User'))
 
 WS.verifyElementPropertyValue(response, 'data.id', 2)
 

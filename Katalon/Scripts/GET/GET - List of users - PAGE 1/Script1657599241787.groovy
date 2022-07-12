@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 import java.net.URL as URL
 
-response1 = WS.sendRequest(findTestObject('GET/GET - List of users - PAGE 1'))
+response1 = WS.sendRequest(findTestObject('Reqres/GET/GET - List of users - PAGE 1'))
 
 def slurper = new JsonSlurper()
 

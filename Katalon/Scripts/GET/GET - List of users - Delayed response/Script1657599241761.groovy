@@ -20,7 +20,7 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 WebUI.comment('Start Get List User with Delay')
 
-response1 = WS.sendRequest(findTestObject('GET/GET - List of users - Delay response'))
+response1 = WS.sendRequest(findTestObject('Reqres/GET/GET - List of users - Delay response'))
 
 WebUI.comment('Set Delay')
 
