@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('PATCH/PATCH - Update user'))
+response = WS.sendRequest(findTestObject('Reqres/PATCH/PATCH - Update user'))
 
-WS.verifyElementPropertyValue(response, 'name', "Lola")
-WS.verifyElementPropertyValue(response, 'job', "Librarian")
+WS.verifyElementPropertyValue(response, 'name', 'Lola')
+
+WS.verifyElementPropertyValue(response, 'job', 'Librarian')
+
