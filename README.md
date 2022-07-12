@@ -6,7 +6,7 @@
 ## Tools & Utility
 
 - API Endpoint : reqres.in
-- Tools : KATALON STUDIO ENTERPRISE & Cypress.io
+- Tools : <b>Katalon Studio</b> & <b>Cypress.io</b>
 - Method : Manual Scripting & Spy Object API
 
 ## Total Test Case & Test Suite
