@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('Start method delete user')
+
 WS.sendRequest(findTestObject('Reqres/DELETE/DELETE - User'))
 
