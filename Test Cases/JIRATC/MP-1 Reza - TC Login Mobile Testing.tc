@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Reza - TC Login Mobile Testing
+Description: Testing aplikasi _mobile_ merupakan proses di mana aplikasi yang dikembangkan untuk menguji kegunaan dan konsistensinya pada perangkat _mobile_. Ada dua macam pengujian aplikasi pada perangkat mobile yang harus gunakan, yaitu pengujian pada _hardware_ dan pengujian pada _software_. 
+
+
+
+Pada kali ini kita akan melakukan testing pada aplikasi appdemo dengan mencoba beberapa fitur seperti Create Profile,  Login menggunakan profile yang dibuat sebelumnya dan Membuat card account</description>
+   <name>MP-1 Reza - TC Login Mobile Testing</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10014&quot;:&quot;AP-3&quot;,&quot;customfield_10029&quot;:&quot;  Scenario: Test Banking Demo Apps\n    When I succesfully login\n    And I make an card\n    And I click on \u0027enter\u0027\n    Then I should get a new card&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000v:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar3.atlassian.net/&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/project/10002&quot;,&quot;key&quot;:&quot;MP&quot;,&quot;id&quot;:10002,&quot;name&quot;:&quot;Mobile Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Reza - TC Login Mobile Testing&quot;,&quot;description&quot;:&quot;Testing aplikasi _mobile_ merupakan proses di mana aplikasi yang dikembangkan untuk menguji kegunaan dan konsistensinya pada perangkat _mobile_. Ada dua macam pengujian aplikasi pada perangkat mobile yang harus gunakan, yaitu pengujian pada _hardware_ dan pengujian pada _software_. \n\n\n\nPada kali ini kita akan melakukan testing pada aplikasi appdemo dengan mencoba beberapa fitur seperti Create Profile,  Login menggunakan profile yang dibuat sebelumnya dan Membuat card account&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;rezaaa.ym@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Reza Maulana&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/user?accountId\u003d62c4e609eda95d2e3a6993d2&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/MP-1/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/10006&quot;,&quot;key&quot;:&quot;MP-1&quot;,&quot;id&quot;:10006}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>ac31fde1-4ccb-4f84-b017-a09d12468bfe</testCaseGuid>
+</TestCaseEntity>

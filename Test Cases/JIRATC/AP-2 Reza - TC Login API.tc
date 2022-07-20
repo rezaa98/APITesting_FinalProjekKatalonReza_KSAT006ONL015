@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Reza - TC Login API
+Description: API Testing adalah tipe software testing yang memvalidasi API, terjadi pada Business Layer, Software Layer yang paling kritis karena menghubungkan Presentation Layer dan Database Layer. API Layer juga menjadi penghubung antara Unit Layer dan UI Layer.
+
+Pada projek ini kita akan melakukan API TESTING pada website : [https://restful-booker.herokuapp.com/apidoc/index.html|https://restful-booker.herokuapp.com/apidoc/index.html|smart-link] 
+yang mana akan mencoba seluruh end point yang berada pada api tersebut</description>
+   <name>AP-2 Reza - TC Login API</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Sprint API Testing&quot;,&quot;state&quot;:&quot;future&quot;,&quot;boardId&quot;:1,&quot;goal&quot;:&quot;Finish Final Project API Testing for https://restful-booker.herokuapp.com/&quot;,&quot;startDate&quot;:&quot;2022-07-07T21:26:00.000Z&quot;,&quot;endDate&quot;:&quot;2022-07-14T21:26:00.000Z&quot;}],&quot;customfield_10014&quot;:&quot;AP-3&quot;,&quot;customfield_10029&quot;:&quot;Feature: Test All end Point of boker API\nScenario: Add booking record\nGiven I Set POST booking service api endpoint\nWhen I Set request HEADER\nAnd Send a POST HTTP request\nThen I receive valid Response&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000f:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://timbelajar3.atlassian.net/&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;AP&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;API Project&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Reza - TC Login API&quot;,&quot;description&quot;:&quot;API Testing adalah tipe software testing yang memvalidasi API, terjadi pada Business Layer, Software Layer yang paling kritis karena menghubungkan Presentation Layer dan Database Layer. API Layer juga menjadi penghubung antara Unit Layer dan UI Layer.\n\nPada projek ini kita akan melakukan API TESTING pada website : [https://restful-booker.herokuapp.com/apidoc/index.html|https://restful-booker.herokuapp.com/apidoc/index.html|smart-link] \nyang mana akan mencoba seluruh end point yang berada pada api tersebut&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;rezaaa.ym@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Reza Maulana&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/user?accountId\u003d62c4e609eda95d2e3a6993d2&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;rezaaa.ym@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Reza Maulana&quot;,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/user?accountId\u003d62c4e609eda95d2e3a6993d2&quot;},&quot;priority&quot;:{&quot;id&quot;:2,&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/priority/2&quot;,&quot;name&quot;:&quot;High&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/AP-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://timbelajar3.atlassian.net/rest/api/2/issue/10002&quot;,&quot;key&quot;:&quot;AP-2&quot;,&quot;id&quot;:10002}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>fb089209-9da1-4bd8-ad44-356654254bdc</testCaseGuid>
+</TestCaseEntity>
